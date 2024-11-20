@@ -1,0 +1,83 @@
+
+/*user 1*/
+.User1 img {
+    background-color:darkblue;
+    border: 2px solid #000000;
+    border-radius: 15px;
+    float: left;
+    margin: 5px;
+}
+/*animation for User1*/
+.User1:hover {
+    transform:translateY(5px);
+    background-color: #070042;
+    color: #ffffff;
+}
+.User1 img:hover {
+    border: 2px solid white;
+    background-color: aqua;
+}
+/*animation for User1*/
+.User1 {
+    /*for animation*/
+    transition: all  0.3s;
+
+    text-align: left;
+    /*Button*/
+    margin:40px 20px;
+    background-color: #00b7ff;
+    color: #000000;
+    border-radius: 5px;
+    padding: 2px;
+    width: 70%;
+}
+.User1 img {
+    /*for animation*/
+    transition: all 0.3s;
+
+}
+
+/*User 2*/
+.User2:hover {
+    transform:translateY(5px);
+    background-color: #ff00ea;
+    color: #000000;
+}
+.User2 img:hover{
+    border: 2px solid rgb(155, 0, 0);
+    background-color: rgb(0, 0, 0);
+}
+.User2 {
+    /*for animation*/
+    transition: all 0.3s;
+
+    text-align: left;
+    /*button*/
+    margin:40px 20px;
+    background-color: #4a004d;
+    color: #ff00ea;
+    border-radius: 5px;
+    padding: 2px;
+    width: 70%;
+}
+.User2 img {
+    transition: all 0.3s;
+    float: left;
+
+    background-color: white;
+    border: 2px solid #d344ff;
+    border-radius: 15px;
+    margin: 5px;
+}
+
+body {
+    background-color: gray;
+    text-align: center;
+}
+b {
+    color: white;
+
+}
+.LINK {
+    animation: color123 2s 1s infinite;
+}
