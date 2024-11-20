@@ -1,0 +1,11 @@
+body {
+    background-color: gray;
+    text-align: center;
+}
+b {
+    color: white;
+
+}
+.LINK {
+    animation: color123 2s 1s infinite;
+}
